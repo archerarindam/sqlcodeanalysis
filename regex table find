@@ -1,0 +1,6 @@
+Adjusted Regex:
+\\b([A-Za-z_][A-Za-z0-9_]*)\\s*\\.\\s*([A-Za-z_][A-Za-z0-9_]*)\\b
+Simplified Regex (No Word Boundaries):
+([A-Za-z_][A-Za-z0-9_]*)\\s*\\.\\s*([A-Za-z_][A-Za-z0-9_]*)
+Regex for Table Names Inside Strings:
+"[^"]*?\\b([A-Za-z_][A-Za-z0-9_]*)\\s*\\.\\s*([A-Za-z_][A-Za-z0-9_]*)\\b[^"]*?"
